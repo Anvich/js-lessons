@@ -1,0 +1,7 @@
+let number=0, proz=0, i=0;
+while(i<100){
+    proz=number*number;
+    alert(proz);
+    number++;
+    i++;
+}
