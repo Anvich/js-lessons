@@ -1,0 +1,6 @@
+let number=0, proz=0;
+for(i=0;i<100;i++){
+    proz=number*number;
+    alert(proz);
+    number++;
+}
