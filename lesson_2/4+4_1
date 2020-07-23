@@ -1,0 +1,10 @@
+
+let words=["универ","общага","приемка","программирование","вода","разочарование","монастырь","собчак"];
+let arr=[];
+for(i=0; i<words.length;i++){
+    for(n=0;n<words.length;n++){ 
+       arr[n]={word: words[i],
+        length:words[i].length}
+        console.log(arr[n].word+" "+arr[n].length);
+     }
+}
