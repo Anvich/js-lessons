@@ -1,0 +1,9 @@
+let arr=[5,4,3,8,0], limit=5, arr1=[];
+
+for(i=0;i<arr.length;i++){
+    if(arr[i]>limit){
+        arr1[n]=arr[i]
+        console.log(arr1[n]);
+    }
+    n++;
+}
